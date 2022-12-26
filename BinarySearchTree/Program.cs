@@ -111,17 +111,6 @@ namespace BinarySearchTree
                 Console.Write(ptr.info + " ");
             }
         }
-
-
-
-
-
-
-    class Program
-    {
-        /* A node class consi
-         
-    */
         static void Main(string[] args)
         {
                 BinaryTree x = new BinaryTree();
@@ -160,6 +149,13 @@ namespace BinarySearchTree
                                 x.postorder(x.ROOT);
                             }
                             break;
+                        case '5':
+                            return;
+                        default:
+                        {
+                            Console.WriteLine("Invalid option");
+                            break;
+                        }
                     }
                 }
         }
