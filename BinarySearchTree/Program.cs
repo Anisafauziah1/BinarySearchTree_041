@@ -28,7 +28,10 @@ namespace BinarySearchTree
             {
                 ROOT = null; // initializing root to null
             }
-            
+            public void insert(string element)// insert a node in the binary search try
+            {
+            node tap, parent = null, currentnode = null;
+            }
         }
 
 
