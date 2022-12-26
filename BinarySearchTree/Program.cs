@@ -39,7 +39,24 @@ namespace BinarySearchTree
                 return;
             }
             else // if the specified node is not present
+            {
+                tmp = new node(element, null, null);
+                if(parent == null)
+                {
+                    ROOT = tmp;
+                }
+                else if (string.Compare(element, parent.info) < 0)
+                {
+                    if (string.Compare(element, parent.info) < 0)
+                        parent.lchild = tmp;
+                }
+                else
+                {
+                    parent.rchild = tmp;
+                }
+            }
         }
+        
 
 
 
